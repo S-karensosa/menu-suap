@@ -1,6 +1,6 @@
 import HelloWorld from './HelloWorld';
 import React from 'react'
-import SayName from "./SayName";
+import "./App.css"
 import Perfil from "./Perfil";
 
 function App() {
@@ -36,11 +36,9 @@ function App() {
 	]
 
 	return (
-		<div>
+		<div className="container-principal">
 			<HelloWorld />
 			
-			
-
 			{lista_pessoas.map ((pessoa) =>{
 				return <Perfil 
 
